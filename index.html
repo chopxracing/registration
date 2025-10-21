@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="divc">
+    <h1 class="title">Создание WEB ID</h1>
+    <p class="subtitle">Уже есть WEB ID? <a href="login.html">Найти его здесь ></a></p>
+    <form action="" method="post" class="form_example">
+      <div class="form-group">
+        <label for="name" class="form-label">Имя</label>
+        <input type="text" name="name" id="name" class="form-input" required>
+      </div>
+      <div class="form-group">
+        <label for="surname" class="form-label">Фамилия</label>
+        <input type="text" name="surname" id="surname" class="form-input" required>
+      </div>
+      <div class="form-group">
+        <label for="birthday" class="form-label">Дата рождения</label>
+        <input type="date" name="birthday" id="birthday" class="form-input" required placeholder=" ">
+      </div>
+      <div class="form-group">
+        <select name="country" id="country" class="form-select">
+          <option value = "" disabled selected>Страна</option>
+          <option value="russia">Россия</option>
+          <option value="kazakhstan">Казахстан</option>
+          <option value="belarus">Беларусь</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Почта</label>
+        <input type="email" name="email" id="email" class="form-input" required>
+      </div>
+      <div class="form-group">
+        <label for="pass" class="form-label">Пароль</label>
+        <input type="password" name="pass" id="pass" class="form-input" required>
+      </div>
+      <div class="form-group">
+        <label for="passconfirm" class="form-label">Повторите пароль</label>
+        <input type="password" name="passconfirm" id="passconfirm" class="form-input" required>
+      </div>
+      <input type="submit" value="Продолжить" class="submit-btn">
+    </form>
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>

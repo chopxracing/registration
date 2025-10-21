@@ -1,0 +1,120 @@
+.divc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    height: 750px;
+    margin: 50px auto;
+}
+
+body {
+    background-color: rgb(214, 214, 214)
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.form-label {
+    position: absolute;
+    top: 27px;
+    left: 15px;
+    padding: 0 5px;
+    color: rgb(100, 100, 100)
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-input {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 275px;
+    margin: 10px;
+    height: 32px;
+    border: 0.5px solid black;
+}
+
+.form-select {
+    padding: 10px;
+    border-radius: 10px;
+    width: 297px;
+    margin: 10px;
+    height: 53px;
+    border: 0.5px solid black;
+}
+
+.submit-btn {
+    background-color: #428EFF;
+    border: 0px solid black;
+    width: 297px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 53px;
+}
+
+.logdivc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    height: 455px;
+    margin: 50px auto;
+}
+
+/* Стили для центрированной надписи "ИЛИ" */
+.or-divider {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.or-divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    background: #ccc;
+}
+
+.or-text {
+    display: inline-block;
+    background: white;
+    padding: 0 15px;
+    color: #666;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+}
+
+/* Простые стили для иконок соцсетей */
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-item {
+    list-style: none;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+}
