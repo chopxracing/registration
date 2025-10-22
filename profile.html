@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой профиль</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="divc">
+        <h1 class="title">Добро пожаловать!</h1>
+        <p class="subtitle">Вы успешно вошли в систему WEB ID</p>
+        
+        <div class="profile-info">
+            <div class="info-item">
+                <strong>Статус:</strong> <span class="status-active">✅ Активен</span>
+            </div>
+            <div class="info-item">
+                <strong>WEB ID:</strong> <span id="user-email">Загрузка...</span>
+            </div>
+            <div class="info-item">
+                <strong>Дата регистрации:</strong> <span id="reg-date">Загрузка...</span>
+            </div>
+        </div>
+        
+        <div class="action-buttons">
+            <a href="dashboard.html" class="submit-btn" style="display: block; text-align: center; text-decoration: none; margin: 10px 0;">
+                Перейти в личный кабинет
+            </a>
+            <a href="settings.html" class="secondary-btn" style="display: block; text-align: center; text-decoration: none; margin: 10px 0;">
+                Настройки аккаунта
+            </a>
+            <a href="logout.php" class="logout-link" style="display: block; text-align: center; margin-top: 20px; color: #666;">
+                Выйти из аккаунта
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Можно добавить JavaScript для отображения данных пользователя
+        // Например, из localStorage или через AJAX запрос
+        document.getElementById('user-email').textContent = localStorage.getItem('userEmail') || 'Пользователь';
+    </script>
+</body>
+</html>

@@ -143,3 +143,46 @@ a {
 #birthday:valid {
     color: black;
 }
+
+
+/* Стили для страницы успеха */
+.success-message {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f8fff8;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+}
+
+.success-message p {
+    margin: 10px 0;
+    color: #2E7D32;
+}
+
+.action-buttons {
+    margin-top: 20px;
+}
+
+.back-link {
+    color: #428EFF;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Убедитесь, что контейнер подходит для страницы успеха */
+.divc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    margin: 50px auto;
+    min-height: 300px; /* Минимальная высота */
+}
