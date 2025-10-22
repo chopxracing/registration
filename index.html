@@ -11,8 +11,8 @@
 <body>
   <div class="divc">
     <h1 class="title">Создание WEB ID</h1>
-    <p class="subtitle">Уже есть WEB ID? <a href="login.html">Найти его здесь ></a></p>
-    <form action="" method="post" class="form_example">
+    <p class="subtitle">Уже есть WEB ID? <a href="loggedin.html">Найти его здесь ></a></p>
+    <form action="register.php" method="POST" class="form_example">
       <div class="form-group">
         <label for="name" class="form-label">Имя</label>
         <input type="text" name="name" id="name" class="form-input" required>
@@ -45,7 +45,7 @@
         <label for="passconfirm" class="form-label">Повторите пароль</label>
         <input type="password" name="passconfirm" id="passconfirm" class="form-input" required>
       </div>
-      <input type="submit" value="Продолжить" class="submit-btn">
+      <input type="submit" value="Продолжить" class="submit-btn" id="submitbutton">
     </form>
     <script src="script.js"></script>
   </div>
